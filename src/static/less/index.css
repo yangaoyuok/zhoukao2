@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrap {
+  width: 1023px;
+  height: 635px;
+  background: #87CEEB;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrap .jia {
+  display: none;
+}
+.wrap .jian {
+  display: block;
+  display: inline;
+}
+.wrap .diannao {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.wrap .diannao ._c {
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.wrap .diannao ._c .a,
+.wrap .diannao ._c .changyong,
+.wrap .diannao ._c .chengxu {
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.wrap .diannao ._c .a .b,
+.wrap .diannao ._c .changyong .b,
+.wrap .diannao ._c .chengxu .b,
+.wrap .diannao ._c .a .c,
+.wrap .diannao ._c .changyong .c,
+.wrap .diannao ._c .chengxu .c,
+.wrap .diannao ._c .a .jiaoxue,
+.wrap .diannao ._c .changyong .jiaoxue,
+.wrap .diannao ._c .chengxu .jiaoxue,
+.wrap .diannao ._c .a .demo,
+.wrap .diannao ._c .changyong .demo,
+.wrap .diannao ._c .chengxu .demo {
+  margin-left: 50px;
+  margin-top: 12px;
+}
+.wrap .diannao ._c .a .b .base,
+.wrap .diannao ._c .changyong .b .base,
+.wrap .diannao ._c .chengxu .b .base,
+.wrap .diannao ._c .a .c .base,
+.wrap .diannao ._c .changyong .c .base,
+.wrap .diannao ._c .chengxu .c .base,
+.wrap .diannao ._c .a .jiaoxue .base,
+.wrap .diannao ._c .changyong .jiaoxue .base,
+.wrap .diannao ._c .chengxu .jiaoxue .base,
+.wrap .diannao ._c .a .demo .base,
+.wrap .diannao ._c .changyong .demo .base,
+.wrap .diannao ._c .chengxu .demo .base {
+  margin-left: 60px;
+  margin-top: 12px;
+}
+.wrap .diannao ._d {
+  margin-left: 30px;
+  margin-top: 12px;
+}
+.wrap .diannao ._d .yingyin,
+.wrap .diannao ._d .youxi {
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.wrap .diannao ._d .yingyin .jingang,
+.wrap .diannao ._d .youxi .jingang,
+.wrap .diannao ._d .yingyin .binghe,
+.wrap .diannao ._d .youxi .binghe,
+.wrap .diannao ._d .yingyin .LOL,
+.wrap .diannao ._d .youxi .LOL {
+  margin-left: 50px;
+  margin-top: 12px;
+}

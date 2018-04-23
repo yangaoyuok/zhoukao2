@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 1023px;
+    height: 635px;
+    background: #87CEEB;
+    margin: 0 auto;
+}

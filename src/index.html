@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/less/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <script type='text/x-handlebars-template' id='tpl'>
+
+            {{#each diannao}}
+            <div class="diannao"><span class='jian'>-</span><span class='jia'>+</span>{{wode}} {{/each}} {{#each c}}
+                <div class="_c"><span class='jian'>-</span><span class='jia'>+</span>{{cc}} {{/each}} {{#each a}}
+                    <p class='a'>{{aa}}</p>
+                    {{/each}} {{#each changyong}}
+                    <div class="changyong"><span class='jian'>-</span><span class='jia'>+</span>{{chang}} {{/each}} {{#each list}}
+                        <p class='b'>{{b}}</p>
+                        <p class='c'>{{c}}</p>
+                        {{/each}}
+                    </div>
+                    {{#each one}}
+                    <div class="chengxu"><span class='jian'>-</span><span class='jia'>+</span>{{chengxu}} {{/each}} {{#each one_1}}
+                        <p class='jiaoxue'>{{jiaoxue}}</p>
+                        {{/each}} {{#each one_2}}
+                        <div class="demo"><span class='jian'>-</span><span class='jia'>+</span>{{demo}}{{/each}} {{#each one_2_1}}
+                            <p class='base'>{{base}}</p>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+                {{#each two}}
+                <div class="_d"><span class='jian'>-</span><span class='jia'>+</span>{{d}} {{/each}} {{#each two_1}}
+                    <div class="yingyin"><span class='jian'>-</span><span class='jia'>+</span>{{yingyin}}{{/each}} {{#each two_1_1}}
+                        <p class='jingang'>{{jingang}}</p>
+                        <p class='binghe'>{{binghe}}</p>
+                        {{/each}}
+                    </div>
+                    {{#each two_2}}
+                    <div class="youxi"><span class='jian'>-</span><span class='jia'>+</span>{{youxi}}{{/each}} {{#each two_2_1}}
+                        <p class='LOL'>{{lol}}</p>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </script>
+    </div>
+    <script src='./static/js/lib/require.js' data-main='./static/js/main'></script>
+</body>
+
+</html>
